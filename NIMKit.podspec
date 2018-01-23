@@ -30,5 +30,6 @@ Pod::Spec.new do |s|
   end   
 
   s.default_subspec = 'Lite'  
+  s.static_framework = true
 
 end 
